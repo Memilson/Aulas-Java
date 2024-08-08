@@ -1,15 +1,41 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Random userTicket = new Random();
+        int userTicketNumber = userTicket.nextInt(100);
+        String userID, userProblem, techName;
+        Scanner scanner = new Scanner(System.in);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        System.out.println("Qual seu nome?");
+        userID = scanner.nextLine();
+
+        System.out.println("Qual seu problema?");
+        userProblem = scanner.nextLine();
+
+        System.out.println("Escolha o técnico (Angelo, James, John, Aleatorio):");
+        techName = scanner.nextLine();
+
+        switch (techName) {
+            case "Angelo":
+                System.out.println("Técnico escolhido: Angelo");
+                break;
+            case "James":
+                System.out.println("Técnico escolhido: James");
+                break;
+            case "John":
+                System.out.println("Técnico escolhido: John");
+                break;
+            case "Aleatorio":
+                System.out.println("Técnico escolhido: Aleatorio");
+                break;
+            default:
+                System.out.println("Técnico não encontrado.");
+                break;
         }
+
+        System.out.println("Seu nome: " + userID);
+        System.out.println("Ticket: " + userTicketNumber);
+        System.out.println("Problema enviado para a equipe de suporte: " + userProblem);
     }
 }

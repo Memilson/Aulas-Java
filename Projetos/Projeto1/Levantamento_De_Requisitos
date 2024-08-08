@@ -1,0 +1,71 @@
+- Interface
+  - Técnico
+    - Prioridade de atendimento
+    - Marcação de prioridade
+    - Data de envio do ticket e geração automática de ticket
+    - Banco de dados
+    - Relatório de problemas recorrentes
+    - Painel de controle para gerenciamento de chamados
+    - Histórico de tickets e status
+    - Individualidade de cada técnico (atribuições, especializações)
+
+  - Usuário
+    - Selecionar técnico e descrever detalhadamente o problema
+    - Atendimento 24/7
+    - Atendimento com IA e personalização (sistema de memória da IA, talvez ChatGPT)
+    - Autenticação de usuário
+    - Segurança da conta e apoio ao usuário
+    - Interface interativa, fácil, simples, prática e bonita
+    - Sistema otimizado para sistemas operacionais
+    - Sistema otimizado para reclamações e melhorias de bug
+    - Notificações de status do chamado
+    - Histórico de chamados e respostas
+    - Problemas recorrentes para atendimento individual
+
+- Funcionalidades
+  - Interface Técnico
+    - Gestão de tickets (abertura, fechamento, atualização)
+    - Atribuição e visualização de tickets
+    - Comentários e anotações no ticket
+    - Integração com ferramentas de comunicação (e-mail, chat)
+
+  - Interface Usuário
+    - Criação e acompanhamento de tickets
+    - Sistema de feedback e avaliação do atendimento
+    - Histórico de interações com o suporte
+    - Atualizações e notificações sobre o status dos tickets
+
+- Atendimento
+  - Problemas pré-selecionados ou frequentes
+  - Campo para descrição de novos problemas ou ajuda mais aprofundada
+  - Contato direto com o suporte (chat, e-mail, telefone)
+  - Atendimento com IA para problemas frequentes
+  - FAQ
+  - Assistência remota, se possível
+  - Registro da máquina no banco de dados para atendimento personalizado
+  - Atendimento e padrões personalizados para cada usuário
+
+- Segurança
+  - Criptografia de banco de dados e informações do usuário
+  - Autenticação e autorização
+  - Proteção contra injeção de código
+  - Validação de entrada
+  - Manter o software atualizado
+  - Gerenciamento de sessões
+  - Logging e monitoramento
+  - Minimizar exposição
+  - Uso de contêineres e sandbox
+  - Testes de segurança
+  - Políticas de backup e recuperação de desastres
+
+- Desempenho
+  - Escalabilidade do sistema
+  - Tempo de resposta e latência
+  - Otimização para diferentes dispositivos e navegadores
+  - Testes de carga e estresse
+
+- Manutenção
+  - Plano de manutenção regular
+  - Procedimentos para atualizações e patches
+  - Documentação técnica e de usuário
+  - Suporte contínuo e monitoramento pós-implementação
