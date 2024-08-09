@@ -1,7 +1,9 @@
+import javax.swing.*;
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        new Screen();
         Random userTicket = new Random();
         int userTicketNumber = userTicket.nextInt(100);
         String userID, userProblem, techName;
